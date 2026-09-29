@@ -1,0 +1,47 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-login {
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+.conteudo-login img {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 4px;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    margin-top: 8px;
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 4px;
+    background-color: white;
+}
+
+.links-login {
+    margin-top: 15px;
+}
+
+.links-login p {
+    margin-top: 10px;
+}

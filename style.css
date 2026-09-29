@@ -1,0 +1,44 @@
+h1 {
+    font-size: 40px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+section {
+    width: 250px;
+    text-align: center;
+}
+
+.produto img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 12px;
+}
+
+.produto h2 {
+    margin-top: 10px;
+}
+
+.produto p {
+    margin-top: 8px;
+}
+
+.produto a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: 1px solid black;
+    border-radius: 6px;
+    text-decoration: none;
+    color: black;
+}
+
+.produto a:hover,
+.botao:hover {
+    background-color: rgb(230, 230, 225);
+}

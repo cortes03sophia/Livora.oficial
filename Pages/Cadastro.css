@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-cadastro {
+    width: 100%;
+    max-width: 450px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input {
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 4px;
+}
+
+button {
+    width: 100px;
+    height: 38px;
+    margin-top: 10px;
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 4px;
+    background-color: white;
+}
+
+.voltar-login {
+    margin-top: 15px;
+}

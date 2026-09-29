@@ -1,0 +1,27 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sucesso {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.icone {
+    font-size: 60px;
+    margin: 20px;
+}
+
+.sucesso a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 6px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}

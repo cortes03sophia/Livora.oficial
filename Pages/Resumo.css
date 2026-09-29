@@ -1,0 +1,50 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.resumo {
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+.resumo img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 12px;
+}
+
+.resumo p,
+.resumo label {
+    margin-top: 10px;
+}
+
+.resumo input {
+    width: 80px;
+    height: 35px;
+    margin: 8px;
+    padding: 5px;
+}
+
+.resumo a,
+.botao {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 9px 15px;
+    border: 1px solid black;
+    border-radius: 6px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+.resumo form {
+    margin-top: 5px;
+}
+
+.resumo .botao {
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+}

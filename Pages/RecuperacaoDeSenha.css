@@ -1,0 +1,39 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-recuperacao {
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+.conteudo-recuperacao img {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+input {
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 4px;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 4px;
+    background-color: white;
+}

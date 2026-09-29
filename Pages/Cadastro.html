@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="./Cadastro.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Cadastro</h1>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="./Login.html">Entrar</a>
+        <a href="./Cadastro.html">Cadastrar</a>
+    </nav>
+
+    <main>
+        <section class="conteudo-cadastro">
+            <form id="formCadastro">
+                <label for="nome">Nome completo</label>
+                <input id="nome" required type="text" placeholder="Digite seu nome completo">
+
+                <label for="email">E-mail</label>
+                <input id="email" required type="email" placeholder="Digite seu e-mail">
+
+                <label for="senha">Senha</label>
+                <input id="senha" required type="password" placeholder="Digite sua senha">
+
+                <label for="confirmar-senha">Confirmar senha</label>
+                <input id="confirmar-senha" required type="password" placeholder="Confirme sua senha">
+
+                <label for="rg">RG</label>
+                <input id="rg" required type="text" placeholder="Digite seu RG">
+
+                <label for="cpf">CPF</label>
+                <input id="cpf" required type="text" placeholder="Digite seu CPF">
+
+                <label for="endereco">Endereço</label>
+                <input id="endereco" required type="text" placeholder="Digite seu endereço">
+
+                <label for="cep">CEP</label>
+                <input id="cep" required type="text" placeholder="Digite o CEP">
+
+                <label for="cidade">Cidade</label>
+                <input id="cidade" required type="text" placeholder="Digite a cidade">
+
+                <label for="estado">Estado</label>
+                <input id="estado" required type="text" placeholder="Digite o estado">
+
+                <label for="pais">País</label>
+                <input id="pais" required type="text" placeholder="Digite o país">
+
+                <label for="nascimento">Data de nascimento</label>
+                <input id="nascimento" required type="date">
+
+                <button type="submit">Cadastrar</button>
+            </form>
+
+            <p class="voltar-login">
+                Já possui cadastro? <a href="./Login.html">Voltar para Login</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Endereço</h3>
+        <ul>
+            <li>Av. da Saudade, 125 - Ponte Preta, Campinas/SP.</li>
+            <li>Telefone: (19) 3731-2840.</li>
+            <li>Próximo à Rua Doutor Álvaro Ribeiro.</li>
+        </ul>
+        <img width="80" src="../Assets/senai.jpg" alt="Logo do Senai">
+    </footer>
+
+    <script src="./Cadastro.js"></script>
+</body>
+
+</html>
